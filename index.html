@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Practice</title>
+  <meta charset="utf-8">
+  <link href="styles.css" rel="stylesheet">
+ </head>
+ <body background="images/Cloud.png" bgcolor="#D1F2F5" text="1D2627" link="1D67B7">
+  <font size="4" face="Arial">
+  <p align="center"><b>Оставь мне сообщение</b></p>
+
+  <p align="right"><em>О нас думают плохо лишь те, кто хуже нас, а те кто лучше нас... Им просто не до нас...</em></p>
+
+  <p align="left"><u>Здравствуйте. Меня зовут Михаил и мне 27 годиков</u><br>
+    <i>Оставьте</i> мне сообщение в ниже приведенной форме. Я его обязательно прочитаю (или нет)
+  </p>
+  <hr height="3ph" color="green">
+
+  <p align="left">Пожалуйста, придерживайтесь правил написания сообщения
+    <ol>
+      <li><font color="red" face="Bradley Hand, cursive">Не матюгайтесь</font></li>
+      <li>Не пишите Только заглавными буквами</li>
+      <li><font color="orange">Ставьте знаки препинания</font></li>
+    </ol>
+  </p>
+
+  <form action="/my-handling-form-page" method="post">
+    <ul>
+      <fieldset>
+        <legend>личная информация</legend>
+        <li>
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+          <label for="mail">Почта:</label>
+          <input type="email" id="mail" name="user_email">
+        </li>
+        <li>
+          <label for="gender">Пол:</label>
+          М <input type="radio" value="male" id="gender" name="user_gender">
+          Ж <input type="radio" value="female" id="gender" name="user_gender">
+        </li>
+      </fieldset>
+      <li>
+        <label for="reason">Причина обращения:</label>
+        <select size="1" id="reason">
+          <option value="with_out">Просто так</option>
+          <option value="job">По работе</option>
+          <option value="studing">По учебе</option>
+          <option value="personal">Личное</option>
+        </select>
+      </li>
+      <li>
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" name="user_message"></textarea>
+      </li>
+      <li class="button">
+        <button type="button" name="button" aria-setsize="15">Отправка вашего сообщения</button>
+      </li>
+    </ul>
+  </form>
+  <hr height="3ph" color="green">
+
+  <table border="1" align="center">
+    <caption>Средний курс валют за последние 4 месяца</caption>
+    <tr><th>Месяц</th><th>USD</th><th>EUR</th></tr>
+    <tr><td>Апрель</td><td>27,94</td><td>33,65</td></tr>
+    <tr><td>Март</td><td>27,74</td><td>33,05</td></tr>
+    <tr><td>Февраль</td><td>27,86</td><td>33,40</td></tr>
+    <tr><td>Январь</td><td>28,05</td><td>34,10</td></tr>
+  </table>
+  <hr height="3ph" color="green">
+
+  <table border="1" align="center">
+    <caption>Средний курс валют за последние 4 месяца (покупка и продажа)</caption>
+    <tr>
+     <th rowspan="2">Месяц</th>
+     <th colspan="2">USD</th>
+     <th colspan="2">EUR</th>
+    </tr>
+    <tr>
+      <th>покупка</th>
+      <th>продажа</th>
+      <th>покупка</th>
+      <th>продажа</th>
+     </tr>
+    <tr><td>Апрель</td><td>27,74</td><td>28,14</td><td>33,45</td><td>33,85</td></tr>
+    <tr><td>Март</td><td>27,44</td><td>27,94</td><td>32,85</td><td>33,45</td></tr>
+    <tr><td>Февраль</td><td>27,66</td><td>28,26</td><td>33,20</td><td>33,60</td></tr>
+    <tr><td>Январь</td><td>27,95</td><td>28,35</td><td>33,80</td><td>34,30</td></tr>
+  </table>
+  <hr height="3ph" color="green">
+
+  <img src="images/Cat.png" alt="Cat" height="200pt" width="190pt">
+  <img src="images/Cat.png" alt="Cat" height="250pt" width="230pt">
+  <img src="images/Cat.png" alt="Cat" height="400pt" width="380pt">
+  <hr height="3ph" color="green">
+
+  <p>Кликните на один из элементов HTML, PHP или CSS, чтобы посмотреть их поближе:</p>​
+  <img src="images/slide_26.png" width="244" height="244" alt="Planets" usemap="#map1">​
+  <map name="map1">​
+    <area shape="circle" coords="120,35,20" alt="HTML" href="images/HTML.png">​
+    <area shape="circle" coords="190,45,20" alt="PHP" href="images/PHP.png">​
+    <area shape="circle" coords="200,150,20" alt="CSS" href="images/CSS.png">​
+  </map>
+  <hr height="3ph" color="green">
+
+  <p>Куда полетите в этом году?</p>​
+  <img src="images/Turkey_or_Egypt.jpg" width="640" height="360" alt="Journey" usemap="#map2">​
+  <map name="map2">​
+    <area shape="rect" coords="1,1,320,360" alt="Turkey" href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F">​
+    <area shape="rect" coords="321,1,640,360" alt="Egypt" href="https://ru.wikipedia.org/wiki/%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82">​
+  </map>
+  <hr height="3ph" color="green">
+
+  <p align="left">Если вам нравится облачко на фоне нашего сайта - вы можете найти его по этой <a href="images/Cloud.png">ССЫЛКЕ</a></p>
+  </font>
+ </body> 
+</html>

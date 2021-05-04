@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    text-align: center;
+    size: 5pt;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Определим размер и выравнивание */
+    display: inline-block;
+    width: 220px;
+    text-align: right;
+}
+
+textarea {
+    /* Выравним многострочные текстовые поля с их текстами-подсказками */
+    vertical-align: top;
+
+    /* Предоставим пространство для ввода текста */
+    height: 5em;
+}
+
+.button {
+    /* Выравним кнопки с их текстами-подсказками */
+    padding-left: 210px;
+}
+
+form {
+    /* Расположим форму по центру страницы */
+    margin: 0 auto;
+    width: 40pc;
+    /* Определим контур формы */
+    padding: 1em;
+    border: 1px solid rgb(2, 0, 0);
+    border-radius: 2em;
+}
