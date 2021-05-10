@@ -3,13 +3,30 @@
  <head>
   <title>Practice</title>
   <meta charset="utf-8">
+  <style>
+  div.third_lab {
+    font-size: 30px;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    text-indent: 5px;
+    line-height: normal;
+  }
+
+  p.epigraph {
+    text-indent: 10px;
+  }
+
+  li.button {
+    /*Переопределяем padding для одного конкретного li*/
+    padding-left: 210px;
+  }
+  </style>
   <link href="styles.css" rel="stylesheet">
  </head>
  <body background="images/Cloud.png" bgcolor="#D1F2F5" text="1D2627" link="violet">
   <font size="4" face="Arial">
   <p align="center"><b>Оставь мне сообщение</b></p>
 
-  <p align="right"><em><font color="blue">О нас думают плохо лишь те, кто хуже нас, а те кто лучше нас... Им просто не до нас...</font></em></p>
+  <p class="epigraph"><em><font color="blue">О нас думают плохо лишь те, кто хуже нас, а те кто лучше нас... Им просто не до нас...</font></em></p>
 
   <p align="left"><u>Здравствуйте. Меня зовут Михаил и мне 27 годиков</u><br>
     <i>Оставьте</i> мне сообщение в ниже приведенной форме. Я его обязательно прочитаю (или нет)
@@ -105,6 +122,13 @@
     <area shape="rect" coords="321,1,640,360" alt="Egypt" href="https://ru.wikipedia.org/wiki/%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82">​
   </map>
   <hr height="3ph" color="green">
+
+  <div class="third_lab">
+    <p class="first_row">Создаем три одинаковые строки и разукрашиваем их в разные цвета. При этом стили помещаем в CSS файлик</p>
+    <p class="epigraph">Этот эпиграф мы будем красить в зеленый</p>
+    <p class="second_row">Создаем три одинаковые строки и разукрашиваем их в разные цвета. При этом стили помещаем в CSS файлик</p>
+    <p class="third_row">Создаем три одинаковые строки и разукрашиваем их в разные цвета. При этом стили помещаем в CSS файлик</p>
+  </div>
 
   <p align="left">Если вам нравится облачко на фоне нашего сайта - вы можете найти его по этой <a href="images/Cloud.png">ССЫЛКЕ</a></p>
   </font>

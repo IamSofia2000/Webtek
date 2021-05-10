@@ -11,6 +11,7 @@ button {
 
 form li + li {
     margin-top: 1em;
+    padding-left: 0px;
 }
 
 label {
@@ -28,17 +29,45 @@ textarea {
     height: 5em;
 }
 
-.button {
-    /* Выравним кнопки с их текстами-подсказками */
-    padding-left: 210px;
-}
-
 form {
     /* Расположим форму по центру страницы */
     margin: 0 auto;
     width: 40pc;
     /* Определим контур формы */
     padding: 1em;
-    border: 1px solid rgb(2, 0, 0);
+    border: 2px solid rgb(2, 0, 0);
     border-radius: 2em;
+    border-style: dotted;
+}
+
+p.epigraph {
+    color: green;
+    text-align: right;
+}
+
+p.first_row {
+    color: rgb(255, 0, 255);
+}
+
+p.first_row {
+    /*Наблюдаем свойство каскадности*/
+    color: red;
+}
+
+p.second_row {
+    color: rgb(129, 3, 3);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+p.third_row {
+    background-color: rgb(2, 0, 0);
+    color: rgb(180, 180, 180);
+    /*Не уверена что это похоже на "блики"...*/
+    text-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+
+div.third_lab {
+    margin: 15px;
+    border: 5px rgb(129, 3, 3);
+    border-style: double;
 }
