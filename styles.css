@@ -1,7 +1,5 @@
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 button {
@@ -70,4 +68,132 @@ div.third_lab {
     margin: 15px;
     border: 5px rgb(129, 3, 3);
     border-style: double;
+}
+
+.arrow-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.arrow-left {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border: solid;
+    border-width: 3px 0 0 3px;
+    display: inline-block;
+    padding: 4px;
+}
+
+.navigation-right {
+    text-align: right;
+}
+
+.navigation-left {
+    text-align: left;
+}
+
+a:visited {
+    color: rgb(226, 43, 150);
+    border-color: rgb(226, 43, 150);
+}
+
+a:hover {
+    color: #606d1a;
+    border-color: #606d1a;
+}
+
+a:active {
+    color: #ff0000;
+    border-color: #ff0000;
+}
+
+body.fourth_lab {
+    background-color: cornsilk;
+    background-image: url(images/Cloud_ping.png), url(images/Cloud.png);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+div.Bulgakov {
+    margin-top: 100px;
+}
+
+.first_fact {
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(53, 28, 11);
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-indent: 20%;
+}
+
+.second_fact {
+    font-size: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(11, 53, 31);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: unset;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-indent: 10%;
+}
+
+.third_fact {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 18, 18);
+    text-align: left;
+    letter-spacing: 0.5px;
+    text-transform: initial;
+    text-decoration: underline;
+    text-emphasis: inherit;
+    text-indent: 10px;
+}
+
+ol.ul_Bulgakov {
+    padding-left: 2px;
+    list-style-position: inside;
+}
+
+ul.ul_Bulgakov {
+    padding-left: 30px;
+    list-style-image: url(images/zip.png);
+}
+
+table {
+    padding: 10px auto;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 2px solid rgb(109, 108, 108);
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+th {
+    background-color: rgb(222, 152, 135);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(224, 220, 165);
+}
+
+tr:hover {
+    background-color: cyan;
+}
+
+h1 {
+    text-align: center;
 }
