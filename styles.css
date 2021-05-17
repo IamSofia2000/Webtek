@@ -158,7 +158,7 @@ div.Bulgakov {
     text-indent: 10px;
 }
 
-ol.ul_Bulgakov {
+ol.ol_Bulgakov {
     padding-left: 2px;
     list-style-position: inside;
 }
@@ -166,10 +166,6 @@ ol.ul_Bulgakov {
 ul.ul_Bulgakov {
     padding-left: 30px;
     list-style-image: url(images/zip.png);
-}
-
-table {
-    padding: 10px auto;
 }
 
 table, td, th {
