@@ -90,11 +90,13 @@ div.third_lab {
 }
 
 .navigation-right {
-    text-align: right;
+    position: absolute;
+    right: 5px;
 }
 
 .navigation-left {
-    text-align: left;
+    position: absolute;
+    left: 5px;
 }
 
 a:visited {
@@ -193,4 +195,42 @@ tr:hover {
 
 h1 {
     text-align: center;
+}
+
+.fixed_position {
+    position: fixed;
+    left: 20%;
+    opacity: 0.2;
+}
+
+.relative_position {
+    position: relative;
+    left: 40%;
+}
+
+.absolute_position {
+    position: absolute;
+    left: 40%;
+}
+
+.relative_position:hover {
+    opacity: 0.0;
+}
+
+.left_float {
+    float: left;
+}
+
+.right_float {
+    float: right;
+}
+
+.clear_left {
+    clear: left;
+}
+
+body.fifth_lab {
+    background-color: rgba(255, 238, 0, 0.1);
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
